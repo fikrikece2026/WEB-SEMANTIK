@@ -1,0 +1,3 @@
+<FilesMatch "(?i)(^README(?:\.[^.]*)?$|\.sql$|\.zip$|^config\.local\.php(?:\..*)?$)">
+    Require all denied
+</FilesMatch>
